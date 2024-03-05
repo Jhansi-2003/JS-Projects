@@ -1,0 +1,45 @@
+body{
+    border: solid 1px white;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#counter{
+    border: solid 1px white;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+#counter > *{
+    color: white;
+}
+
+.button{
+    width: 5vw;
+    height: 5vw;
+    border: solid 1px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.number{
+    width: 5vw;
+    height: 5vw;
+    border: solid 1px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
